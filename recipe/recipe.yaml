@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 1.22
+  version: "1.23"
 
 package:
   name: anakin-language-server
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/anakin-language-server/anakin_language_server-${{ version }}.tar.gz
-  sha256: a9b92535339df0179a3a74dc7019f636913ac2d266aee3fdd651c0c66aa01b71
+  sha256: 0b7058dc7c237861f79a4e9a273a3a4f27f3fa2e1bfbb95f95dcb1c4dc5e79c2
 
 build:
   number: 0
